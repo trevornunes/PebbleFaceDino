@@ -1,0 +1,36 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "froggyface",
+    "longName": "Dino Watch",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/Dinos.ttf",
+                "name": "FONT_DINO_48",
+                "type": "font"
+            },
+            {
+                "file": "fonts/galaxyfaraway.ttf",
+                "name": "FONT_SW_24",
+                "type": "font"
+            },
+            {
+                "file": "fonts/pocket_calcuatlor_tt.ttf",
+                "name": "FONT_CALC_60",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "dino",
+    "uuid": "4dfb27f0-d6ff-4b1f-9dbf-5a4f4d4151c4",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
