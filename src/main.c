@@ -1,5 +1,8 @@
 #include <pebble.h>
   
+// Pebble 'dino' watchface.
+// Animates 'dingbat' TTFs 
+  
 static Window *s_main_window;
 static TextLayer *s_time_layer;
 static TextLayer *s_msg_layer;
@@ -8,19 +11,14 @@ static TextLayer *s_msg_layer;
 static GFont s_time_font;
 static GFont  s_msg_font;
 
-static char s_msg[] = "      ";
-
-#define MAX_MSG_SIZE 10
-#define MAX_MSG_LEN 5
-  
+static char s_msg[] = "      "; 
 static char s_ascTable[256];
-
 
 static void update_msg() {  
   static int idx = 65;  
   static int charPos = 0;
   
-  if( idx++ >= 94) 
+  if( idx++ >= 90) 
     idx = 65;
   
   if ( charPos++ >= 2)
