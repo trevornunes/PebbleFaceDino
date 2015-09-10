@@ -14,11 +14,6 @@
                 "type": "font"
             },
             {
-                "file": "fonts/galaxyfaraway.ttf",
-                "name": "FONT_SW_24",
-                "type": "font"
-            },
-            {
                 "file": "fonts/pocket_calcuatlor_tt.ttf",
                 "name": "FONT_CALC_60",
                 "type": "font"
@@ -29,7 +24,7 @@
     "shortName": "dino",
     "uuid": "4dfb27f0-d6ff-4b1f-9dbf-5a4f4d4151c4",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.2",
     "watchapp": {
         "watchface": true
     }
